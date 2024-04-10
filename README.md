@@ -1,5 +1,3 @@
-# Getting Started with Create React App
-
 # Frontend - ReactJS Layout Creation
 
 ## Specifications
