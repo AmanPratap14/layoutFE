@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "66167d4f258a69270ed62994"
+  },
+  "content": "First",
+  "windowId": 1
+},
+{
+  "_id": {
+    "$oid": "66167def258a69270ed62995"
+  },
+  "content": "Second",
+  "windowId": 2
+},
+{
+  "_id": {
+    "$oid": "66167dfb258a69270ed62996"
+  },
+  "content": "this is third",
+  "windowId": 3
+}]
