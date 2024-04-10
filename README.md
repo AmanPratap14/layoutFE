@@ -39,4 +39,7 @@ Ensure responsiveness across all laptop devices.
 2. Add or edit data using the provided modals.
 3. Ensure that the layout adjusts responsively across various laptop devices.
 
-Feel free to explore and modify the codebase to suit your needs!
+## Project Deploy at:- 
+https://amanpratap14.github.io/layoutFE/
+
+
