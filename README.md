@@ -1,70 +1,42 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Frontend - ReactJS Layout Creation
 
-## Available Scripts
+## Specifications
+Create a layout with three components, each containing content (HTML or images).
+Components should be resizable by dragging from any side.
+Resizing one component should adjust the size of its neighboring components accordingly.
+Utilize open-source libraries for implementation.
+Ensure responsiveness across all laptop devices.
 
-In the project directory, you can run:
+## Implementation Overview
+- **Frontend Framework**: ReactJS
+- **Libraries Used**: 
+  - [react-grid-layout](https://github.com/STRML/react-grid-layout) for layout creation and resizing.
+  - [axios](https://github.com/axios/axios) for handling API calls.
+- **File Structure**:
+  - `App.js`: Main React component integrating layout creation, API calls, and modals for adding/editing data.
+  - `assets/`: Directory containing SVG files for component representations.
+  - `controller/Services.js`: File handling API service requests.
+  - `modal/Modal.js`: Component files for modals used in adding/editing data.
 
-### `npm start`
+## Key Components and Functionality
+- **Layout Configuration**: Implemented using `react-grid-layout`. Handles layout and resizing of components.
+- **Data Management**: Handles data retrieval, addition, and editing using API calls with `axios`.
+- **Modals**: Modal components for adding and editing data.
+- **Responsive Design**: Ensures responsiveness across laptop devices using CSS media queries.
+- **State Management**: Utilizes React's `useState` and `useEffect` hooks for state management and lifecycle methods.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Execution
+1. Clone the repository locally.
+2. Navigate to the project directory.
+3. Install dependencies using `npm install`.
+4. Start the development server using `npm start`.
+5. Access the application through a web browser at the provided localhost address.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to Use
+1. Drag the edges of the components to resize them.
+2. Add or edit data using the provided modals.
+3. Ensure that the layout adjusts responsively across various laptop devices.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to explore and modify the codebase to suit your needs!
